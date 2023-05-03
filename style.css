@@ -1,0 +1,45 @@
+:root {
+  
+  --primary-color:rgb(252,211,77);
+
+}
+body{
+  background-color: #f9fafb;
+  font-family: 'caveat', cursive;
+}
+
+.navigation{
+  padding: 1rem;
+  border-bottom-left-radius: 1rem;
+  margin: auto;
+  box-shadow: 0 1px 4px rgba(141,161,176,.15);
+  background-color: var(--primary-color);
+  font-weight: bold;
+  /* padding: 0.5rem 2rem 0.5rem 2rem ; */
+  margin: auto;
+  max-width: 900px;
+  padding: 1.5rem
+
+}
+
+.nav-brand{
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+
+
+
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
